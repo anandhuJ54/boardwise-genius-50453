@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           )}>
             <Calculator className="h-4 w-4 inline-block mr-2" />
-            Free BDFT Calculator Tool
+            {/* Free BDFT Calculator Tool */}
           </div>
           
           <h1 className={cn(
