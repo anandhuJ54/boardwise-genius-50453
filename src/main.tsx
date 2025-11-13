@@ -1,6 +1,6 @@
 
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
+import App from './App.jsx'
 import './index.css'
 import 'antd/dist/antd.css'
 
