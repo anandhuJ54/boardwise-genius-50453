@@ -48,7 +48,7 @@ const Index: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Board Foot Calculator (BDFT) | Free Lumber Measurement Tool</title>
+        {/* <title>Board Foot Calculator (BDFT) | Free Lumber Measurement Tool</title> */}
         <meta 
           name="description" 
           content="Use our free board foot calculator to quickly measure lumber. Our easy-to-use bdft calculator helps you calculate board feet (bdft) accurately for any woodworking or construction project."
