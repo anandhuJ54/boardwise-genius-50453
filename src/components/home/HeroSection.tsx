@@ -42,9 +42,9 @@ const HeroSection: React.FC = () => {
           >
             <Calculator className="h-4 w-4 inline-block mr-2" />
             {/* Free BDFT Calculator Tool */}
-            <Button type={"primary"}>Click me</Button>
+            
           </div>
-
+<div><Button type={"primary"}>Click me</Button></div>
           <h1
             className={cn(
               "text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6",
