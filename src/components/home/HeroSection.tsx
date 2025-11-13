@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, Info, Calculator } from "lucide-react";
+import { ArrowRightOutlined, InfoCircleOutlined, CalculatorOutlined } from "@ant-design/icons";
 import BoardFootCalculator from "@/components/BoardFootCalculator";
 import { cn } from "@/lib/utils";
 import { Button } from "antd";
@@ -40,7 +40,7 @@ const HeroSection: React.FC = () => {
                 : "opacity-0 translate-y-4"
             )}
           >
-            <Calculator className="h-4 w-4 inline-block mr-2" />
+            <CalculatorOutlined className="mr-2" />
             {/* Free BDFT Calculator Tool */}
             
           </div>
@@ -85,7 +85,7 @@ const HeroSection: React.FC = () => {
               className="px-6 py-3 bg-primary text-white font-medium rounded-lg shadow-md hover:shadow-lg hover:bg-primary-dark transition-all duration-300 flex items-center gap-2"
             >
               Use BDFT Calculator
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRightOutlined />
             </Link>
 
             <a
@@ -93,7 +93,7 @@ const HeroSection: React.FC = () => {
               className="px-6 py-3 bg-white text-gray-700 font-medium rounded-lg shadow-sm hover:shadow hover:bg-gray-50 transition-all duration-300 flex items-center gap-2 border border-gray-200"
             >
               Learn More
-              <Info className="h-4 w-4" />
+              <InfoCircleOutlined />
             </a>
           </div>
         </div>
