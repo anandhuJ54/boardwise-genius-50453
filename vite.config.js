@@ -11,7 +11,11 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === "development" && componentTagger(),
+    mode === "development" &&
+      componentTagger({
+        extensions: [".jsx", ".js"], // Include JS/JSX files
+        ts: false, // Disable TypeScript mode
+      }),
   ].filter(Boolean),
   resolve: {
     alias: {
