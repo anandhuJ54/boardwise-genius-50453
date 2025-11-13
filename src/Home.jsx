@@ -2,7 +2,7 @@ import { Button } from "antd";
 
 const Home = () => {
   return <div>
-   <h2> Welcome to the Home Page</h2> <br />
+   <h2> Welcome to the Home Page 123</h2> <br />
     <Button type="primary">Get Started</Button>
     </div>;
 };  
