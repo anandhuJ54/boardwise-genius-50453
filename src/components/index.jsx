@@ -1,12 +1,12 @@
-import TreeView from "./TreeView";
+import React from "react";
 import ProfileCard from "./card";
 
 const Component = () => {
   return (
     <>
-      {/* <TreeView /> */}
       <ProfileCard />
     </>
   );
 };
+
 export default Component;

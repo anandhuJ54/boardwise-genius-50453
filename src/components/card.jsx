@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import {
   SearchOutlined,
@@ -376,7 +375,6 @@ const US_CITIES = [
   "West Jordan, UT",
   "Murrieta, CA",
   "Palm Bay, FL",
-  // more...
 ];
 
 const profilesPerPage = 3;
@@ -658,7 +656,6 @@ const SearchLanding = ({ onClaimProfile, onCreateNew }) => {
       <div style={{ maxWidth: 800, margin: "32px auto", padding: "0 16px" }}>
         {currentStep === "name" && (
           <div>
-            {/* <Text type="secondary">Step {getStepNumber()} of 3</Text> */}
             <StepProgress getStepNumber={getStepNumber} />
             <div style={{ margin: "16px 0" }}>
               <div
@@ -748,7 +745,6 @@ const SearchLanding = ({ onClaimProfile, onCreateNew }) => {
 
         {currentStep === "location" && (
           <div>
-            {/* <Text type="secondary">Step {getStepNumber()} of 3</Text> */}
             <StepProgress getStepNumber={getStepNumber} />
             <div style={{ margin: "16px 0" }}>
               <Button
@@ -811,7 +807,6 @@ const SearchLanding = ({ onClaimProfile, onCreateNew }) => {
 
         {currentStep === "results" && (
           <div>
-            {/* <Text type="secondary">Step {getStepNumber()} of 3</Text> */}
             <StepProgress getStepNumber={getStepNumber} />
             <Title level={3} style={{ marginTop: 16 }}>
               {filteredProfiles.length > 0
@@ -858,7 +853,7 @@ const SearchLanding = ({ onClaimProfile, onCreateNew }) => {
                 )}
                 <div style={{ textAlign: "center", marginTop: 24 }}>
                   <Text type="secondary">
-                    Don’t see your profile?{" "}
+                    Don't see your profile?{" "}
                     <Button
                       type="link"
                       onClick={() =>
