@@ -17,7 +17,7 @@ const Footer = () => {
             Log In
           </a>
         </p>
-        <Button type="primary" icon={<UserOutlined />} style={{ marginTop: '16px' }}>
+        <Button type="primary" icon={<UserOutlined />} style={{ marginTop: '16px', borderRadius: '8px' }}>
           Create
         </Button>
         <Select
