@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'antd'
 import { FooterContainer, FooterWrapper } from '../../styles'
 
 const Footer = () => {
@@ -15,6 +16,9 @@ const Footer = () => {
             Log In
           </a>
         </p>
+        <Button type="primary" style={{ marginTop: '16px' }}>
+          Create
+        </Button>
       </FooterWrapper>
     </FooterContainer>
   )
