@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from 'antd'
+import { UserOutlined } from '@ant-design/icons'
 import { FooterContainer, FooterWrapper } from '../../styles'
 
 const Footer = () => {
@@ -16,7 +17,7 @@ const Footer = () => {
             Log In
           </a>
         </p>
-        <Button type="primary" style={{ marginTop: '16px' }}>
+        <Button type="primary" icon={<UserOutlined />} style={{ marginTop: '16px' }}>
           Create
         </Button>
       </FooterWrapper>
